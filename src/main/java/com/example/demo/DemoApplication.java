@@ -10,7 +10,7 @@ public class DemoApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(DemoApplication.class, args);
         SpringApplication springApplication = new SpringApplication(DemoApplication.class);
-        // 设置banner mode为OFF关闭banner：
+        // 设置banner mode为OFF关闭banner
         springApplication.setBannerMode(Banner.Mode.CONSOLE);
         springApplication.run(args);
     }
